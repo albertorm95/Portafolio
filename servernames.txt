@@ -1,4 +1,0 @@
-ns-1524.awsdns-62.org
-ns-729.awsdns-27.net
-ns-160.awsdns-20.com
-ns-1828.awsdns-36.co.uk
