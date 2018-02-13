@@ -1,208 +1,314 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en"> 
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113061571-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
+    <title>Alberto Rojas</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive Resume/CV／Portfolio Template">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head> 
 
-		gtag('config', 'UA-113061571-1');
-	</script>
-	<title>Alberto Rojas</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="theme-color" content="#22303d">
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="public/assets/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="public/assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="public/assets/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="public/assets/css/owl.carousel.min.css">
-</head>
 <body>
-	<nav class="navbar navbar-inverse navbar-fixed-top center">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			<a class="navbar-brand" href="#">Alberto Rojas</a>
-			</div>
-			<div id="navbar" class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-					<li><a href="#proyectos">Proyectos</a></li>
-					<li><a href="#experiencia">Experiencia</a></li>
-					<li><a href="#contacto">Contacto</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+    
+    <header class="header">
+        <div class="top-bar container-fluid">
+            <div class="actions">
+                <!-- <a class="btn d-none d-md-inline-block" href="mailto:someone@example.com"><i class="fa fa-paper-plane" aria-hidden="true"></i> Hire Me</a> -->
+                <a class="btn" href="#"><i class="fa fa-download" aria-hidden="true"></i> Download My Resume</a>
+            </div><!--//actions-->
+            <ul class="social list-inline">
+                <li class="list-inline-item"><a href="https://www.linkedin.com/in/albertorojasm95/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li class="list-inline-item"><a href="https://twitter.com/albertorm95/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.instagram.com/albertorm95/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li class="list-inline-item"><a href="https://github.com/albertorm95/" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+            </ul><!--//social-->
+        </div><!--//top-bar-->
+        
+        <div class="intro">
+            <div class="container text-center">
+                <!-- <img class="profile-image" src="assets/images/profile-image.png" alt=""> -->
+                <h1 class="name">Alberto Rojas</h1>
+                <div class="title">Full Stack NodeJS Developer & DevOps Engineer</div>
+                <div class="profile">
+                    <p>I am a self-taught, honest, leader, noble, orderly, responsible, hardworking and versatile person with a great interest in developing ideas, project management and problem solving through technology; currently working on DevOps using Docker, Jenkins and also using Agile culture, in order to low cost and reduce errors on production.</p>
+                </div><!--//profile-->
+            </div><!--//container-->
+        </div><!--//intro-->
+        
+        <div class="contact-info">
+            <div class="container text-center">
+                <ul class="list-inline">
+                    <li class="email list-inline-item"><i class="fa fa-envelope"></i><a href="mailto:someone@example.com">albertorojasm95@gmail.com</a></li>
+                    <!-- <li class="list-inline-item"><i class="fa fa-phone"></i> <a href="tel: 0123456789">0123 456 7890</a></li> -->
+                    <li class="website list-inline-item"><i class="fa fa-globe"></i><a href="#" target="_blank">albertorojas.mx</a></li>
+                </ul>
+            </div><!--//container-->
+        </div><!--//contact-info-->
+        
+        <div class="page-nav-space-holder d-none d-md-block">
+            <div id="page-nav-wrapper" class="page-nav-wrapper text-center">
+                <div class="container">
+                    <ul id="page-nav" class="nav page-nav list-inline">
+                        <li class="nav-item"><a class="scrollto nav-link" href="#experiences-section">Experiences</a></li>
+                        <li class="nav-item"><a class="scrollto nav-link" href="#education-section">Education</a></li>
+                        <li class="nav-item"><a class="scrollto nav-link" href="#skills-section">Skills</a></li>
+                        <li class="nav-item"><a class="scrollto nav-link" href="#testimonials-section">Testimonials</a></li>
+                        <li class="nav-item"><a class="scrollto nav-link" href="#portfolio-section">Portfolio</a></li>
+                        <li class="nav-item"><a class="scrollto nav-link" href="#contact-section">Contact</a></li>
+                    </ul><!--//page-nav-->
+                </div>
+            </div><!--//page-nav-wrapper-->
+        </div>
+        
+    </header><!--//header-->
+    
+    <div class="wrapper container">
 
-	<div class="container">
-		<!-- Info? -->
-		<div class="owl-carousel" id="carousel">
-			<div>
-				<img src="public/assets/img/huaxtla-min.jpg" alt="Cascadas Huaxtla">
-			</div>
-			<div>
-				<img src="public/assets/img/zoo-min.jpg" alt="Zoologico de Guadalajara">
-			</div>
-		</div>
+        <section id="experiences-section" class="experiences-section section">
+            <h2 class="section-title">Work Experiences</h2>
+            <div class="timeline">
+                <div class="item">
+                    <div class="work-place">
+                        <h3 class="place">IBM</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Guadalajara, MX</div>
+                    </div>
+                    <div class="job-meta">
+                        <div class="title">DevOps Engineer</div>
+                        <div class="time">10/2017 - Present</div>
+                    </div><!--//job-meta-->
+                    <div class="job-desc">
+                        <ul>
+                            <li>In charge of Docker implementation in current project.</li>
+                            <li>CI with Jenkins and Docker.</li>
+                            <li>Docker Swarm orchestration.</li>
+                        </ul>
+                    </div><!--//job-desc-->
+                </div><!--//item-->
 
-		<!-- Experiencia -->
-		<div class="row" id="experiencia">
-			<hr>
-			<h1 class="text-center">Experiencia</h1>
-			<br>
-			<div class="row">
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<div class="thumbnail">
-						<div class="caption text-center">
-							<h3>IBM Guadalajara</h3>
-							<a href="https://www.linkedin.com/company-beta/9455792/"><img src="public/assets/img/ibm.png" style="width: 150px; height: 150px" alt="IBM"></a>
-							<br>
-							<h4>Application Developer JavaScript Core</h4>
-							<p>(Febrero/2017 - Actual)</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<div class="thumbnail">
-						<div class="caption text-center">
-							<h3>Federación de Estudiantes de Jalisco Delegación Tabasco</h3>
-							<a href="https://www.facebook.com/FEJTAB"><img src="public/assets/img/fej.png" style="width: 150px; height: 150px" alt="FEJ"></a>
-							<br>
-							<h4>Coordinador de Medios, Practicas Profesionales y Servicio Social</h4>
-							<p>(Octubre/2014 - Diciembre/2016)</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<div class="thumbnail">
-						<div class="caption text-center">
-							<h3>Bukla’ (Freelance)</h3>
-							<img src="public/assets/img/bukla.png" alt="Bukla'">
-							<br>
-							<h4>Web Developer</h4>
-							<p>(Julio/2015 - Septiembre/2016)</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<div class="thumbnail">
-						<div class="caption text-center">
-							<h3>R2M Mexico, SA de CV</h3>
-							<a href="https://www.linkedin.com/company-beta/1171952/"><img style="width: 150px; height: 150px" src="public/assets/img/r2m.png"" alt="R2M'"></a>
-							<br>
-							<h4>Practicas Profesionales</h4>
-							<p>(Febrero/2015 - Junio/2015)</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<div class="thumbnail">
-						<div class="caption text-center">
-							<h3>Comercializadora Ferrer PC, SA de CV</h3>
-							<a href="http://www.ferrerpc.mx/"><img style="width: 150px; height: 150px" src="public/assets/img/FerrerPC.jpg"" alt="Ferrer PC'"></a>
-							<br>
-							<h4>Practicas Profesionales</h4>
-							<p>(Febrero/2014 – Junio/2014)</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+                <div class="item">
+                    <div class="work-place">
+                        <h3 class="place">IBM</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Guadalajara, MX</div>
+                    </div>
+                    <div class="job-meta">
+                        <div class="title">Full Stack NodeJS Developer</div>
+                        <div class="time">02/2017 - 10/2017</div>
+                    </div><!--//job-meta-->
+                    <div class="job-desc">
+                        <ul>
+                            <li>Working with: NodeJS, TypeScript, AngularJS, ExpressJS.</li>
+                            <li>Automatization with: Jenkins.</li>
+                            <li>Agile Practices and Principles.</li>
+                        </ul>
+                    </div><!--//job-desc-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="work-place">
+                        <h3 class="place">Federación de Estudiantes de Jalisco Delegación Tabasco</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Villahermosa, MX</div>
+                    </div>
+                    <div class="job-meta">
+                        <div class="title">Media Coordinator</div>
+                        <div class="time">10/2014 - 12/2016</div>
+                    </div><!--//job-meta-->
+                    <div class="job-desc">
+                        <ul>
+                            <li>Administration of Social Networks and relation with Graphic Image.</li>
+                        </ul>
+                    </div><!--//job-desc-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="work-place">
+                        <h3 class="place">Freelance</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Villahermosa, MX</div>
+                    </div>
+                    <div class="job-meta">
+                        <div class="title">Web Developer</div>
+                        <div class="time">07/2015 - 09/2016</div>
+                    </div><!--//job-meta-->
+                    <div class="job-desc">
+                        <ul>
+                            <li>Development of web pages using HTM, CSS and JavaScript, also maintenance of the Ticket System of Olmeca’s Stadium and communication with customers.</li>
+                        </ul>
+                    </div><!--//job-desc-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="work-place">
+                        <h3 class="place">Intern</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Villahermosa, MX</div>
+                    </div>
+                    <div class="job-meta">
+                        <div class="title">R2M México, SA de CV</div>
+                        <div class="time">02/2015 – 06/2015</div>
+                    </div><!--//job-meta-->
+                    <div class="job-desc">
+                        <ul>
+                            <li>Training in risk management.</li>
+                        </ul>
+                    </div><!--//job-desc-->
+                </div><!--//item-->
+                
+            </div><!--//timeline-->
+        </section><!--//section-->
+        
+        <section id="education-section" class="education-section section">
+            <h2 class="section-title">Education</h2>
+            <div class="row">
+                <div class="item col-12 col-md-4">
+                    <div class="item-inner">
+                        <h3 class="degree">Master in Engineering in Information and Communication Technologies</h3>
+                        <div class="education-body">
+                            Universidad Autónoma de Guadalajara
+                        </div><!--//education-body-->
+                        <div class="time">2017 - 2018</div>
+                        <div class="desc">
+                            Thesis in containerization of a NodeJS application and the benefits of it.
+                        </div>
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                <div class="item col-12 col-md-4">
+                    <div class="item-inner">
+                        <h3 class="degree">Engineering in Networks and Digital Technology</h3>
+                        <div class="education-body">
+                            Universidad Autónoma de Guadalajara Campus Tabasco
+                        </div><!--//education-body-->
+                        <div class="time">2013 - 2016</div>
+                        <!-- <div class="desc">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
+                        </div> -->
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                <div class="item col-12 col-md-4">
+                    <div class="item-inner">
+                        <h3 class="degree">English</h3>
+                        <div class="education-body">
+                            Universidad Juárez Autónoma de Tabasco
+                        </div><!--//education-body-->
+                        <div class="time">2011 - 2015</div>
+                        <!-- <div class="desc">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
+                        </div> -->
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                
+            </div><!--//row-->
+        </section><!--//section-->
+        
+        <section id="skills-section" class="skills-section section text-center">
+            <h2 class="section-title">Professional Skills</h2>
+            <div class="top-skills">
+                <h3 class="subtitle">Top Skills</h3>
+                <div class="row">
+                    <div class="item col-12 col-md-4">
+                        <div class="item-inner">
+                            <div class="chart-easy-pie text-center">
+                                <div class="chart-theme-1 chart" data-percent="75"><span>75</span>%</div>
+                            </div>
+                            <h4 class="skill-name">Docker &amp; Docker Swarm</h4>
+                            <div class="level">1 year</div>
+                            <div class="desc">
+                                Containerization of the NodeJS projects, and microservices code with TypeScript; Deployment of services with Docker Swarm in differents nodes; Creation of a private Docker Registry.
+                            </div>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                    <div class="item col-12 col-md-4">
+                        <div class="item-inner">
+                            <div class="chart-easy-pie text-center">
+                                <div class="chart-theme-1 chart" data-percent="75"><span>75</span>%</div>
+                            </div>
+                            <h4 class="skill-name">Jenkins</h4>
+                            <div class="level">2 years</div>
+                            <div class="desc">
+                                Continuous Integrations with Pipelines and Docker-compose; Automatization of Docker deployments; Push over FTP; Execute over SSH.
+                            </div>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                    <div class="item col-12 col-md-4">
+                        <div class="item-inner">
+                            <div class="chart-easy-pie text-center">
+                                <div class="chart-theme-1 chart" data-percent="85"><span>85</span>%</div>
+                            </div>
+                            <h4 class="skill-name">NodeJS</h4>
+                            <div class="level">3 years</div>
+                            <!-- <div class="desc">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
+                            </div> -->
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                </div><!--//row-->
+            </div><!--//top-skills-->
+            
+            <div class="other-skills">
+                <h3 class="subtitle">Other Skills</h3>
+                <div class="misc-skills">
+                    <span class="skill-tag">Agile</span>
+                    <span class="skill-tag">DevOps</span>
+                    <span class="skill-tag">CI/CD</span>
+                    <span class="skill-tag">Git</span>
+                    <br>
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <br>
+                    <span class="skill-tag">English</span>
+                    <span class="skill-tag">Spanish</span>
+                </div>
+            </div><!--//other-skills-->
+        </section><!--//skills-section-->
 
-		<!-- Proyectos -->
-		<div class="row" id="proyectos">
-			<hr>
-			<h1 class="text-center">Proyectos</h1>
-			<br>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="thumbnail">
-						<div class="caption text-center">
-							<h3>Jungla Experience</h3>
-							<a href="https://www.facebook.com/JunglaExperience/"><img src="public/assets/img/junglaexperience.jpg" alt="JunglaExperience"></a>
-							<br>
-							<p>"Jungla Experience" es una empresa que se encarga de encotnrar las mejores excursiones de aventura y naturaleza de Tabasco.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="thumbnail">
-						<div class="caption text-center">
-							<h3>Tu Conteo</h3>
-							<a href="https://www.facebook.com/tuconteo/"><img src="public/assets/img/tuconteo.jpg" alt="TuConteo"></a>
-							<br>
-							<p>"Tu Conteo" es un proyecto ciudadano que busca capturar y publicar en tiempo real los resultados de las elecciones.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="thumbnail">
-						<div class="caption text-center">
-							<h3>1º Congreso de Cocina Mexicana Nivel Sureste</h3>
-							<a href="https://www.facebook.com/ccmex6510/"><img src="public/assets/img/ccmex.jpg" alt="CCMEX"></a>
-							<br>
-							<p>El 1° ongreso de Cocina Mexicana Nivel Sureste (CCMEX), tuvo como objetivo compartir la cultura gastronómica mexicana de la región sureste.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="thumbnail">
-						<div class="caption text-center">
-							<h3>Quantum Mobile</h3>
-							<a href="https://www.facebook.com/Qmobme/"><img src="public/assets/img/quantum.jpg" alt="Quantum"></a>
-							<br>
-							<p>"Quantum Mobile" es una empresa tecnológicamente diversificada, cuyo principal objetivo es evolucionar con herramientas innovadoras el negocio de sus clientes.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+    <footer class="footer text-center">
+        <div class="container">
+            <small class="copyright">WIP</small>
+        </div><!--//container-->
+    </footer>
 
-		<!-- Contacto -->
-		<div class="row" id="contacto">
-			<hr>
-			<h1 class="text-center">Contacto</h1>
-			<div class="col-md-4 col-sm-4">
-				<img src="public/assets/img/profile.jpg" alt="Foto" class="img-responsive center-block" style="width: 400px; height: auto">
-			</div>
-			<div class="col-md-8 col-sm-8">
-				<hr style="border-color: #F1C40F">
-				<i class="fa fa-map" aria-hidden="true"></i>&nbsp;&nbsp;Zapopan, Jalisco, México.<br><br>
-				<i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;albertorojasm95@gmail.com<br><br>
-				<i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://twitter.com/albertorm95">albertorm95</a><br><br>
-				<i class="fa fa-github" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://github.com/albertorm95">albertorm95</a><br><br>
-				<i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/albertorojasm95/">albertorm95</a>
-			</div>
-		</div>
-	</div>
-	<footer style="padding-top: 50px">
-		
-	</footer>
-	<script type="text/javascript" src="public/assets/js/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" src="public/assets/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="public/assets/js/owl.carousel.min.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-			$('#carousel').owlCarousel({
-				items:1,
-				loop:true,
-				autoWidht:true,
-				autoPlay:true,
-				autoHeight:true,
-				transitionStyle:"fade"
-			});
-		});
-	</script>
+    </div><!--//wrapper-->
+    
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/imagesloaded.pkgd.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/isotope.pkgd.min.js"></script>  
+
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    
+    <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
+    <script src="assets/js/demo/style-switcher.js"></script>     
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113061571-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-113061571-1');
+    </script>
+
 </body>
-</html>
+</html> 
+
